@@ -1,9 +1,9 @@
 # Dbh_paper
 This includes code and data relevant to produce the figures shown in the Lei group paper 2023 NC.
 
-Plots for the main figures, supplementary figures, and additional diagnostic and plots of interest are produced throughout the code. However, we also produce distinct scripts that collate this into a Figure-specific basis for ease of reproduction. Panels were using these scripts below, with additional annotation or arrangement manually. This code is representative of the original code used but not exhaustive as some processes were done in an interactive fashion e.g. clustering label assignment. Certain code for pre-processing of spatial data was performed by collaborators at BGI and is not included in this repository. Please email Ming.lei@pharm.ox.ac.uk to request access to that code.
+Plots for the main figures, supplementary figures, and additional diagnostic and plots of interest are produced throughout the code. However, we also produce distinct scripts that collate this into a Figure-specific basis for ease of reproduction. Panels were using these scripts below, with additional annotation or arrangement manually. This code is representative of the original code used but not exhaustive as some processes were done in an interactive fashion in the console e.g. clustering label assignment. Certain code for pre-processing of spatial data was performed by collaborators at BGI and is not included in this repository. Please email Ming.lei@pharm.ox.ac.uk to request access to that code.
 
-However, we provide all code necessary to reproduce figures from our processed datasets.
+However, we provide all code necessary to reproduce figures from our processed datasets. Processed and raw data should be available to download from the CNGB.
 
 #Script_for_pre_processing.R
 
@@ -51,5 +51,7 @@ The code then varies between downstream analyses, plot production, and exporting
 Figure S16 involved work in python, which we include here.
 
 #SMASHpy_script.py
+
+MULTICORESEURAT.R is from Vertesy (https://github.com/vertesy) with minor modifications to select prefered 'bimod' test for DE testing.
   
 
